@@ -17,4 +17,10 @@ class RectangleTest {
         Rectangle rectangle = new Rectangle(4, 6);
         assertEquals(20, rectangle.getPerimeter(), 0.0001);
     }
+
+    @Test
+    public void numberOfSides() {
+        Rectangle rectangle = new Rectangle(4, 6);
+        assertEquals(4, rectangle.numberOfSides(), 0.0001);
+    }
 }

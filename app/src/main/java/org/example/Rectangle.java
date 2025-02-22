@@ -1,6 +1,6 @@
 package org.example;
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape implements Polygon{
     double length;
     double width;
 public Rectangle(double inLength,double inWidth){
@@ -15,5 +15,10 @@ public Rectangle(double inLength,double inWidth){
     @Override
     public double getPerimeter() {
         return 2 * (length + width);
+    }
+
+    @Override
+    public int numberOfSides() {
+        return 4;
     }
 }

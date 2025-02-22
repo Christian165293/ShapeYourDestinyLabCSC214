@@ -17,4 +17,10 @@ class IsocelesRightTriangleTest {
         IsocelesRightTriangle isocelesRightTriangle = new IsocelesRightTriangle(8);
         assertEquals(27.313, isocelesRightTriangle.getPerimeter(), 0.001);
     }
+
+    @Test
+    public void numberOfSides() {
+        IsocelesRightTriangle isocelesRightTriangle = new IsocelesRightTriangle(8);
+        assertEquals(3, isocelesRightTriangle.numberOfSides(), 0.0001);
+    }
 }
