@@ -21,4 +21,12 @@ public Rectangle(double inLength,double inWidth){
     public int numberOfSides() {
         return 4;
     }
+
+    public double getLength() {
+        return length;
+    }
+
+    public double getWidth() {
+        return width;
+    }
 }

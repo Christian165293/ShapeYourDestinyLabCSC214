@@ -21,4 +21,12 @@ public class RightTriangle extends Shape implements Polygon{
     public int numberOfSides() {
         return 3;
     }
+
+    public double getLength() {
+        return length;
+    }
+
+    public double getWidth() {
+        return width;
+    }
 }
